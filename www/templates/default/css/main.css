@@ -1,0 +1,342 @@
+body {
+    padding: 0;
+    display: block;
+    min-width: 1400px;
+}
+
+h1 {
+    padding-top: 19px;
+    font-family: 'Fredoka One', cursive;
+}
+
+.hideme {
+    display: none;
+}
+
+#header {
+    height: 100px;
+    text-align: center;
+    background-color: #bb7625;
+    position: relative;
+}
+
+#leftColumn {
+    width: auto;
+    float: right;
+}
+
+.menuCaption {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cartBox {
+    padding: 5px 0px 5px 0px;
+}
+
+/*
+название организации
+*/
+
+.HeaderBrand {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.HeaderBrand:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+Лого фирмы
+*/
+
+.Shop_Logo_Icon {
+    max-height: 80px;
+    height: 100%;
+    padding-left: 48px;
+}
+
+.Shop_Logo_Icon_2 {
+    max-height: 86px;
+    height: 100%;
+    padding-left: 15px;
+}
+
+/*
+Авторизация пользователя
+*/
+
+.Login {
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.LoginButton {
+    padding-top: 40px;
+}
+
+/*
+блок верхнего меню
+*/
+
+.topMenu {
+    position: relative;
+    background-color: #996915;
+}
+
+/*
+главное меню
+*/
+
+.dws-menu * {
+    margin: 0;
+    padding: 0;
+}
+
+.dws-menu ul, .dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu>ul {
+    display: flex;
+}
+
+.dws-menu>ul li a {
+    display: block;
+    background-color: #996915;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    font-family: 'Kaushan Script', cursive;
+    position: relative;
+}
+
+.dws-menu li a:hover {
+    background-color: #996915;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+.dws-menu li i{
+    position: absolute;
+    left: 10px;
+    font-size: 18px;
+}
+
+/*
+подменю
+*/
+
+.dws-menu li ul {
+    position: absolute;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+
+.dws-menu li>ul li {
+    border: 1px solid #c7c8ca;
+}
+
+.dws-menu li>ul li a {
+    padding: 10px;
+    text-transform: none;
+    background: #e89b21;
+}
+
+.dws-menu li>ul li ul {
+    position: absolute;
+    margin-left: 198px;
+    top: 0;
+}
+
+.dws-menu li:hover>ul {
+    display: block;
+}
+
+/*
+Корзина
+*/
+
+.Cart {
+    position: absolute;
+    right: 0;
+    border-left: 2px solid #000000;
+}
+
+.Cart:hover {
+    background-color: #a3822b;
+    transition: all 0.3s ease;
+}
+
+.CartName {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.CartName:hover {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+.cartIcon {
+    padding-top: 4px;
+    padding-right: 4px;
+}
+
+/*блок бользователя*/
+
+#userBox {
+    position: absolute;
+    right: 220px;
+}
+
+/*Линия для UserBox*/
+
+.UserBox_LineB {
+    border-bottom: 2px solid #000000;
+}
+
+/*кнопка выхода из аккаунта*/
+
+.Logout {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.Logout:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*ссылка для личного кабинета*/
+
+#userLink {
+    text-decoration: none;
+    color: white;
+}
+
+#userLink:hover {
+    text-decoration: none;
+    color: white;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}
+
+/*блок регистрации*/
+
+.Registration {
+    position: absolute;
+    right: 225px;
+    padding-top: 5px;
+}
+
+/*блочки товаров*/
+
+.itemProduct {
+    align-items: center;
+    width: 150px;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border: 2px solid #fab3b3;
+    background-color: #fff;
+}
+
+.itemProduct:hover {
+    box-shadow: 1px 5px 10px -5px rgb(238, 108, 108);
+    transition: all 0.1s ease;
+}
+
+.itemProduct a:first-child {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.itemProduct a:last-child {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.itemProduct a img {
+    width: 125px;
+    height: 150px;
+}
+
+.itemProductLink {
+    font-size: 0.7vw;
+}
+
+/*нижний блок*/
+
+.footer {
+    position: relative;
+}
+
+/*кнопка для входа в админку*/
+
+.footer button {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+}
+
+/*контент страницы*/
+
+.main_content {
+    background-color: #ffedce;
+    padding-bottom: 10px;
+    min-height: 515px;
+}
+
+/*оформление таблицы*/
+
+th {
+    font-size: 13px;
+    font-weight: normal;
+    background: #dfc262;
+    border-top: 4px solid #d5b13d;
+    border-bottom: 1px solid #fff;
+    color: #039;
+    padding: 8px;
+}
+
+td {
+    background: #ecdea4;
+    border-bottom: 1px solid #fff;
+    color: #669;
+    border-top: 1px solid transparent;
+    padding: 8px;
+}
+
+tr:hover td {
+    background: #ebbc57;
+}
+
+.content {
+    margin-top: 100px;
+}
