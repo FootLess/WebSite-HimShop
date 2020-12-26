@@ -3,7 +3,8 @@
 
 <div class="footer bg-dark">
     <div class="container p-3">
-        <span class="text-white">© Интернет Аптека Мед-Сервис, 2015</span>
+        <span class="text-white">2020 HimShop. Все права защищены
+        </span>
         <a href="?controller=admin"> <button type="button" class="btn btn-warning"> Вход в админку</button></a>
     </div>
 </div>
